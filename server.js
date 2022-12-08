@@ -10,7 +10,7 @@ const Server = http.createServer(app);
 const io = socketio(Server);
 
 //Set static folder
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, 'publics')));
 
 const botName = 'Akazaya';
 
