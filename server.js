@@ -12,7 +12,7 @@ const io = socketio(Server);
 
 
 //Set static folder
-appp.use(express.static(path.join(__dirname, 'publics')));
+appp.use(express.static(path.join(__dirname, '')));
 
 const botName = 'Akazaya';
 
