@@ -5,12 +5,13 @@
   "main": "server.js",
   "scripts": {
     "start": "node server",
-    "dev" : "nodemon server"
+    "dev": "nodemon server"
   },
   "author": "Sandile Maasuku",
   "license": "MIT",
   "dependencies": {
     "express": "^4.18.2",
+    "firebase": "^9.15.0",
     "moment": "^2.29.4",
     "socket.io": "^4.5.4"
   },

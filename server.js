@@ -5,12 +5,14 @@ const socketio = require('socket.io');
 const formatMessage = require('./utils/messages');
 const {userJoin,getCurrentUser, userLeave, getRoomUsers} = require('./utils/users');  
 
-const app = express();
-const Server = http.createServer(app);
+const appp = express();
+const Server = http.createServer(appp);
 const io = socketio(Server);
 
+
+
 //Set static folder
-app.use(express.static(path.join(__dirname, 'publics')));
+appp.use(express.static(path.join(__dirname, 'publics')));
 
 const botName = 'Akazaya';
 
